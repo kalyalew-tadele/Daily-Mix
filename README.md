@@ -22,7 +22,7 @@ Open the site in your browser.
 
 The Song of the Day appears instantly.
 
-Hit ▶ to  play, or tap  refresh and discover a new track.
+Hit the playbutton to  play, or tap  refresh and discover a new track.
 
 That’s it — just enjoy the rhythm and repeat daily!
 
