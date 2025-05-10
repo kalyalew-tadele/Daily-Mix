@@ -1,0 +1,139 @@
+body {
+    background-color: lightyellow;
+
+}
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+#refresh-button {
+    background: linear-gradient(135deg, #4961b1, #c5a4ee);
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.3s ease;
+    text-align: center;
+}
+
+#refresh-button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #5d78fa, #9a66e1);
+    text-align: center;
+  }
+h2 {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    text-align: center;
+  }
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  #song-display-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(145deg, #e0e7b9, #dbe299);
+    color: #0e0505;
+    padding: 25px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    max-width: 360px;
+    margin: 30px auto;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;     
+    justify-content: flex-start; 
+  }
+  
+  #song-display-container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  .song-info {
+    text-align: center;
+    width: 100%;
+  }
+  
+  #player-song-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;      
+    line-height: 1.3;
+  }
+  
+  #player-song-artist {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.3;
+  }  
+ ul {
+  font-size: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    max-width: 3600px;
+    margin: 30px auto;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;     
+    justify-content: flex-start; 
+ } 
+ p {
+  font-size: 2rem;
+ }
+ #song-display-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(145deg, #e0e7b9, #dbe299);
+  color: #0e0505;
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  max-width: 460px;
+  margin: 30px auto;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  flex-direction: row; 
+  gap: 10px;
+}
+.circle-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e2dd93;
+  color: rgb(14, 9, 9);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.circle-button:hover {
+  background-color: #dbdbdb;
+}
+
