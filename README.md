@@ -1,9 +1,11 @@
 # Daily-Mix
 🔷My Daily Mix
+
 -Your daily dose of uplifting Christian music.
 -Wake up, press play, and let a fresh song brighten your day! 
 
  🔹Features
+ 
  -New song every day — picked just for today!
 
 -“Refresh” button to explore more songs
@@ -15,6 +17,7 @@
  -Clean and joyful UI with music vibes
 
  🔹How to Use
+ 
 Open the site in your browser.
 
 The Song of the Day appears instantly.
@@ -24,6 +27,8 @@ Hit ▶ to  play, or tap  refresh and discover a new track.
 That’s it — just enjoy the rhythm and repeat daily!
 
 🔹Built With
+
+
 -HTML – for the page structure
 
 -CSS – for styling and layout
